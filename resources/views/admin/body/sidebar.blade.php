@@ -26,24 +26,26 @@
                 <div class="menu-title">Application</div>
             </a>
             <ul>
+            <li>
+            <a href="{{ route('administrator') }}" >
+              <i class="bx bx-right-arrow-alt"></i> Administrator
+            </a>
+            </li>
           
                 <li>
-                    <a href="app-emailbox.html"><i class="bx bx-right-arrow-alt"></i>Manage Users</a>
+                    <a href="{{ route('mentors') }}"><i class="bx bx-right-arrow-alt"></i>Mentors</a>
                 </li>
                 <li>
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i>Mentors</a>
+                    <a href="{{ route('pendingmentors') }}"><i class="bx bx-right-arrow-alt"></i>Pending Mentors</a>
                 </li>
                 <li>
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i>Pending Mentors</a>
+                    <a href="{{ route('pendingmentee') }}"><i class="bx bx-right-arrow-alt"></i>Pending Mentee</a>
                 </li>
                 <li>
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i>Pending Mentee</a>
+                    <a href="{{ route('mentee') }}"><i class="bx bx-right-arrow-alt"></i>Mentee</a>
                 </li>
                 <li>
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i>Mentee</a>
-                </li>
-                <li>
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i>Users</a>
+                    <a href="{{ route('users') }}"><i class="bx bx-right-arrow-alt"></i>Users</a>
                 </li>
          
             </ul>
@@ -56,19 +58,19 @@
             </a>
             <ul>
                 <li>
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i>Pending Meeting</a>
+                    <a href="{{ route('pendingmeeting') }}"><i class="bx bx-right-arrow-alt"></i>Pending Meeting</a>
                 </li>
                 <li>
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i>Approved Meeting</a>
+                    <a href="{{ route('approvedmeeting') }}"><i class="bx bx-right-arrow-alt"></i>Approved Meeting</a>
                 </li>
                 <li>
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i>Complete Meeting</a>
+                    <a href="{{ route('completedmeeting') }}"><i class="bx bx-right-arrow-alt"></i>Complete Meeting</a>
                 </li>
                 <li>
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i>Rejected Meeting</a>
+                    <a href="{{ route('rejectedmeeting') }}"><i class="bx bx-right-arrow-alt"></i>Rejected Meeting</a>
                 </li>
                 <li>
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i>All Meeting</a>
+                    <a href="{{ route('allmeeting') }}"><i class="bx bx-right-arrow-alt"></i>All Meeting</a>
                 </li>
          
             </ul>
@@ -81,13 +83,13 @@
             </a>
             <ul>
                 <li>
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i>Pending Ticket</a>
+                    <a href="{{ route('pendingticket') }}"><i class="bx bx-right-arrow-alt"></i>Pending Ticket</a>
                 </li>
                 <li>
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i>Completed Ticket</a>
+                    <a href="{{ route('completedticket') }}"><i class="bx bx-right-arrow-alt"></i>Completed Ticket</a>
                 </li>
                 <li>
-                    <a href="#"><i class="bx bx-right-arrow-alt"></i>All Ticket</a>
+                    <a href="{{ route('allticket') }}"><i class="bx bx-right-arrow-alt"></i>All Ticket</a>
                 </li>
          
             </ul>
